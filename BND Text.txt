@@ -1,0 +1,47 @@
+﻿Nav: Home, Shows, Join, Seeus
+
+Title: Bo Nicolaisens Dance Orchestra
+
+1st Grid:
+
+1:
+Name: John Lydon
+Text: The definitive autobiography of John Lydon, one of the most recognizable icons in the annals of music history. 
+Button: Read more
+
+2:
+Name: Bo Nicolaisen
+Text: The definitive autobiography of John Lydon, one of the most recognizable icons in the annals of music history. 
+Button: Read more
+
+3:
+Name: Ed Johnson
+Text: The definitive autobiography of John Lydon, one of the most recognizable icons in the annals of music history. 
+Button: Read more
+
+4:
+Name: Timothy Jr.
+Text: The definitive autobiography of John Lydon, one of the most recognizable icons in the annals of music history. 
+Button: Read more
+
+2nd Grid:
+
+1:
+Title: Anger is an Energy
+Text: The definitive autobiography of John Lydon, one of the most recognizable icons in the annals of music history. As Johnny Rotten, he was the lead singer of the Sex Pistols - the world's most notorious band, who shot to fame in the 70’ ties with singles such as 'Anarchy in the UK' and 'God Save the Queen'. Via music and invective he spearheaded a generation of young people across the world who were clamouring for change - and found it in style and attitude of this most unlikely figurehead.
+Button: Read more
+
+2:
+Title: Rage In Control
+
+Text: Public Image Ltd Lydon expressed an equally urgent impulse in his make-up - the constant need to reinvent himself. From their beginnings in 1978 he set the template for a band that continues to challenge and thrive in the 2010s. Via music and invective he spearheaded a generation of young people across the world who were clamouring for change - and found it in style and attitude of this most unlikely figurehead.
+Button: Read more
+
+Footer:
+
+Contact:
+Title: Keep me informed
+Name: Type your name
+Email: Type your email
+Button: Confirm
+Accept: I accept the terms and conditions
