@@ -110,3 +110,18 @@ h1{
       margin-left: 8.25vw;
       margin-right: 8.25vw;;
   }
+
+
+  /* video */
+
+  iframe{
+      width: 83.5vw;
+      height: 38vw;
+  }
+
+  .video{
+      padding-top: 1vw;
+    position: absolute;
+    margin: auto;
+    
+    }
