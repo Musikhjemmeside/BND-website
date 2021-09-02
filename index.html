@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Main.css">
+    <script src="Main.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="checkme()">
+
+  <!-- navbar -->
+
     <div id="sutenpik">
   <nav>
-    
       <div id="navbar">
-          
             <a href="index.html"><img src="imgs/logo-bnd.png" alt="Logo" id="imglogo"></a>
-      
 <div>
+
+    <!-- teaser -->
+
       <ol>
         <a href="index.html"><li>HOME</li></a>
         <a href=""><li>SHOWS</li></a>
@@ -27,7 +31,13 @@
   <figure> <img src="imgs/BND-Teaser.jpg" alt="Teaser photo" id="Teaser">  <figcaption></figcaption>
 </figure>
 
+  <!-- h1 -->
+
+
   <h1>BO NICOLAISENS DANCE ORCHESTRA</h1>
+
+    <!-- Headshots -->
+
 
   <div class="gridcontainer">
   
@@ -59,6 +69,26 @@
 </div>
 
 </div>
+  <!-- MiddleLogo -->
+
+<img src="imgs/logo-skull-01.png" alt="" id="middlelogo">
+
+  <!-- Footer -->
+
+
+<footer>
+
+<form action="#">
+  <h2>Keep me informed</h2>
+  <a href="index.html"><img src="imgs/logo-bnd.png" alt="" itemref="" id="footerimg"></a> 
+  <input type="text" placeholder="TYPE YOUR NAME" class="Inputboxes">
+  <input type="text" placeholder="TYPE YOUR EMAIL" class="Inputboxes" id="UserEmail">
+  <button onclick="EmailOK()"> CONFIRM</button>
+  <input type="checkbox" title="I accept the terms and conditions" id="check" onclick="Checked()">
+  <span>I accept the terms and conditions</span>
+</form>
+
+</footer>
 
 </body>
 
