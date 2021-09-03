@@ -1,36 +1,50 @@
 let email = "hello"
 var IsCheckChecked = true
 
-function checkme(){
-    IsCheckChecked = false
-    console.log(IsCheckChecked)
-}
 
-function Checked(){
-    if (IsCheckChecked === false)
-    {
-        IsCheckChecked = true
-    console.log(IsCheckChecked)
-    }
-
-    else {
-        IsCheckChecked = false
-    console.log(IsCheckChecked)
-    }
-    
-}
 
 function EmailOK(){
 IsEmailok = document.getElementById("UserEmail").value.toLowerCase()
-IsCheckChecked = document.getElementById("check").IsCheckChecked
-console.log(IsCheckChecked)
-console.log(IsEmailok)
+
 EmailCheck = IsEmailok.includes("@",".")
-if (EmailCheck === false)
-{alert("please enter a valid email.")}
-if (IsCheckChecked === false)
+EmailLength = IsEmailok.length
+
 {
-    alert("Please check the check box")
+
+if (EmailLength > 2)
+{
+
+if (EmailCheck === true && EmailLength>=5 )
+{
+   console.log("LGTM")
+   document.getElementById("EmailInfo").innerHTML = "Thanks for staying informed!"
+   document.getElementById("EmailInfo").style.color = "limegreen";
+}
+
+if (EmailCheck === true && EmailLength<=4 )
+{
+    console.log("whops your Email is too short!");
+    document.getElementById("EmailInfo").innerHTML = "Your E-mail is too short!"
+    document.getElementById("EmailInfo").style.color = "red";
+
+}
+
+if (EmailCheck === false && EmailLength>=5 )
+{
+    console.log("Your email needs too include @ and .");
+}
+
+if (EmailCheck === false && EmailLength<=4 )
+{
+   console.log("Helll nah")
+}
+
+}
+
+else { 
+document.getElementById("EmailInfo").innerHTML = "Please enter a valid email!"
+console.log("nah")
+}
 }
 }
 

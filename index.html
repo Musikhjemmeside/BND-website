@@ -7,7 +7,7 @@
     <script src="Main.js"></script>
     <title>Document</title>
 </head>
-<body onload="checkme()">
+<body>
 
   <!-- navbar -->
 
@@ -79,11 +79,11 @@
 <footer>
 
 <form action="#">
-  <h2>Keep me informed</h2>
-  <a href="index.html"><img src="imgs/logo-bnd.png" alt="" itemref="" id="footerimg"></a> 
+  <h2 id="EmailInfo">Keep me informed</h2>
+  <img src="imgs/logo-bnd.png" alt="" itemref="" id="footerimg">
   <input type="text" placeholder="TYPE YOUR NAME" class="Inputboxes">
-  <input type="text" placeholder="TYPE YOUR EMAIL" class="Inputboxes" id="UserEmail">
-  <button onclick="EmailOK()"> CONFIRM</button>
+  <input type="text" placeholder="TYPE YOUR EMAIL" class="Inputboxes" id="UserEmail" onfocus="this.value=''">
+  <button type="button" onclick="EmailOK()"> CONFIRM</button>
   <input type="checkbox" title="I accept the terms and conditions" id="check" onclick="Checked()">
   <span>I accept the terms and conditions</span>
 </form>
